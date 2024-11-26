@@ -13,6 +13,15 @@
         android:theme="@style/Theme.CodeLingo"
         tools:targetApi="31">
         <activity
+            android:name=".PhpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JavaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CodelingoActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
