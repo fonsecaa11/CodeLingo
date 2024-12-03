@@ -37,18 +37,20 @@ android {
 }
 
 dependencies {
+    val fragment_version = "1.8.3"
 
+    // Java language implementation
+    implementation("androidx.fragment:fragment:$fragment_version")
+    // Kotlin
+    implementation("androidx.fragment:fragment-ktx:$fragment_version")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-<<<<<<< HEAD
     implementation(libs.firebase.firestore)
-=======
     implementation(libs.firebase.auth.ktx)
     implementation(libs.firebase.firestore.ktx)
->>>>>>> ec480af3e5442f976e5297ebea04d0f38868a485
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
