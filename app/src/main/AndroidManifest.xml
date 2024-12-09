@@ -13,7 +13,7 @@
         android:theme="@style/Theme.CodeLingo"
         tools:targetApi="31">
         <activity
-            android:name=".NivelPHPActivity"
+            android:name=".AdminActivity"
             android:exported="false" />
         <activity
             android:name=".PhpActivity"
