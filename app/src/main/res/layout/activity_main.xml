@@ -13,42 +13,44 @@
         android:layout_marginLeft="10px"
         android:layout_marginRight="10px"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        tools:ignore="PxUsage">
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress2"
+            android:id="@+id/editTextTextEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:hint="Email"/>
+            android:hint="Email"
+            tools:ignore="HardcodedText" />
 
         <EditText
             android:id="@+id/editTextNumberPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
             android:inputType="numberPassword"
-            android:hint="Password"/>
+            android:hint="Password"
+            tools:ignore="HardcodedText" />
 
         <android.widget.Button
             android:id="@+id/Loginbutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login" />
+            android:text="Login"
+            tools:ignore="HardcodedText" />
 
-        <Switch
-            android:id="@+id/switch1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Lembrar-me" />
 
         <android.widget.Button
             android:id="@+id/registerButton"
             android:layout_marginTop="70px"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Register" />
+            android:text="Register"
+            tools:ignore="HardcodedText,PxUsage" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

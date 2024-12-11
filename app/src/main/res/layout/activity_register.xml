@@ -13,50 +13,60 @@
         android:layout_marginLeft="10px"
         android:layout_marginRight="10px"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        tools:ignore="PxUsage">
 
         <EditText
             android:id="@+id/registerEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:hint="Email"/>
+            android:hint="Email"
+            tools:ignore="HardcodedText" />
 
         <EditText
             android:id="@+id/registerPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
             android:inputType="numberPassword"
-            android:hint="Password"/>
+            android:hint="Password"
+            tools:ignore="HardcodedText" />
 
         <EditText
             android:id="@+id/registerConfirmPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
             android:inputType="numberPassword"
-            android:hint="Confirmar Password"/>
+            android:hint="Confirmar Password"
+            tools:ignore="HardcodedText" />
 
         <android.widget.Button
             android:id="@+id/Register2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Register" />
+            android:text="Register"
+            tools:ignore="HardcodedText" />
 
         <android.widget.TextView
             android:layout_width="match_parent"
             android:layout_marginTop="70px"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:text="Já possui conta?"/>
+            android:text="Já possui conta?"
+            tools:ignore="HardcodedText" />
 
         <android.widget.Button
             android:id="@+id/Loginbutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login" />
+            android:text="Login"
+            tools:ignore="HardcodedText" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
