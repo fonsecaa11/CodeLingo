@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.codelingo"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.codelingo"

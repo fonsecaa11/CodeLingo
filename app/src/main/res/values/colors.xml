@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="background_color">#34495E</color>
+    <color name="primary_color">#4CAF50</color> <!-- Verde -->
+    <color name="secondary_color">#2196F3</color> <!-- Azul -->
+    <color name="error_color">#F44336</color> <!-- Vermelho -->
 </resources>
