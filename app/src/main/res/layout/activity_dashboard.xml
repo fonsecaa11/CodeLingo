@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".DashboardActivity">
 
-        <!-- Container para o fragmento -->
+
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragment_container"
             android:layout_width="0dp"
@@ -17,7 +17,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!-- Botão para exibir o fragmento -->
+
         <Button
             android:id="@+id/ButtonJava"
             android:layout_width="wrap_content"
