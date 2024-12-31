@@ -12,12 +12,27 @@ import androidx.fragment.app.commit
 
 class DashboardActivity : AppCompatActivity() {
 
+<<<<<<< HEAD
     @SuppressLint("MissingInflatedId")
+=======
+
+>>>>>>> 8343610fc70e27e0eb02999ef8c2c8adb640e31e
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_dashboard)
+<<<<<<< HEAD
     }
 
 
+=======
+
+
+        val exitButton = findViewById<Button>(R.id.exitButton)
+        exitButton.setOnClickListener {
+
+            finishAffinity()
+        }
+    }
+>>>>>>> 8343610fc70e27e0eb02999ef8c2c8adb640e31e
 }
