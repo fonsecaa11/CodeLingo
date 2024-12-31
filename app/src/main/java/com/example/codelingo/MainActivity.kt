@@ -60,5 +60,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(MudarActivity) // Inicia a ActivityRegister
         }
 
+        uploadQuestionsToFirestore(this)
     }
 }

@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -24,7 +25,10 @@
             android:ems="10"
             android:inputType="textEmailAddress"
             android:hint="Email"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
             tools:ignore="HardcodedText" />
+
 
         <EditText
             android:id="@+id/editTextNumberPassword"
@@ -34,6 +38,8 @@
             android:ems="10"
             android:inputType="textPassword"
             android:hint="Password"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/white"
             tools:ignore="HardcodedText" />
 
         <android.widget.Button

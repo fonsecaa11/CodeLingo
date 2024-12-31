@@ -48,7 +48,11 @@ dependencies {
     implementation(libs.firebase.auth.ktx)
     implementation(libs.navigation.fragment.ktx)
     implementation(libs.navigation.ui.ktx)
+    implementation(libs.firebase.crashlytics.buildtools)
+    implementation(libs.google.firebase.firestore.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation (libs.gson)
+
 }

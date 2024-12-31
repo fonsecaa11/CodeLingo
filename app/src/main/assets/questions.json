@@ -1,0 +1,990 @@
+[
+    {
+        "question": "O que é uma classe em Java?",
+        "options": [
+            "Uma variável",
+            "Um tipo de método",
+            "Uma estrutura que define objetos",
+            "Uma função"
+        ],
+        "answer": 2,
+        "language": "Java",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "O que significa a palavra-chave 'public' em Java?",
+        "options": [
+            "Método privado",
+            "Método acessível apenas na classe",
+            "Método acessível de qualquer lugar",
+            "Método protegido"
+        ],
+        "answer": 2,
+        "language": "Java",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Como você declara uma variável em Python?",
+        "options": [
+            "var x = 10",
+            "let x = 10",
+            "x = 10",
+            "int x = 10"
+        ],
+        "answer": 2,
+        "language": "Python",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Como declarar uma função em JavaScript?",
+        "options": [
+            "function minhaFuncao()",
+            "def minhaFuncao()",
+            "void minhaFuncao()",
+            "func minhaFuncao()"
+        ],
+        "answer": 0,
+        "language": "JavaScript",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Qual operador é usado para comparação em JavaScript?",
+        "options": [
+            "==",
+            "===",
+            "===",
+            "<>"
+        ],
+        "answer": 1,
+        "language": "JavaScript",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Como você chama um método em C++?",
+        "options": [
+            "object.method()",
+            "object->method()",
+            "method.object()",
+            "call method()"
+        ],
+        "answer": 1,
+        "language": "C++",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Qual é o comando correto para importar uma biblioteca em Python?",
+        "options": [
+            "import math",
+            "include math",
+            "use math",
+            "require math"
+        ],
+        "answer": 0,
+        "language": "Python",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Qual das opções é usada para inicializar uma lista em Python?",
+        "options": [
+            "list[]",
+            "new list()",
+            "[ ]",
+            "list()"
+        ],
+        "answer": 2,
+        "language": "Python",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Como se declara uma variável em PHP?",
+        "options": [
+            "$x = 10",
+            "x = 10",
+            "var x = 10",
+            "int x = 10"
+        ],
+        "answer": 0,
+        "language": "PHP",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Como você define uma função em C++?",
+        "options": [
+            "void minhaFuncao()",
+            "function minhaFuncao()",
+            "func minhaFuncao()",
+            "public minhaFuncao()"
+        ],
+        "answer": 0,
+        "language": "C++",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Qual é o operador de atribuição em Java?",
+        "options": [
+            "==",
+            "===",
+            "=",
+            "->"
+        ],
+        "answer": 2,
+        "language": "Java",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Como você cria uma variável de texto em Java?",
+        "options": [
+            "String x = 'texto';",
+            "text x = 'texto';",
+            "var x = 'texto';",
+            "x = 'texto';"
+        ],
+        "answer": 0,
+        "language": "Java",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Como você chama uma função em Python?",
+        "options": [
+            "minhaFuncao()",
+            "function minhaFuncao()",
+            "call minhaFuncao()",
+            "minhaFuncao"
+        ],
+        "answer": 0,
+        "language": "Python",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Como criar um loop 'for' em Java?",
+        "options": [
+            "for (int i = 0; i < 10; i++)",
+            "for i in range(10)",
+            "foreach i in 10",
+            "for (i = 0; i < 10; i++)"
+        ],
+        "answer": 0,
+        "language": "Java",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Como você declara uma função em PHP?",
+        "options": [
+            "function minhaFuncao()",
+            "func minhaFuncao()",
+            "def minhaFuncao()",
+            "minhaFuncao()"
+        ],
+        "answer": 0,
+        "language": "PHP",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Como você define um array em JavaScript?",
+        "options": [
+            "array[1, 2, 3]",
+            "let arr = [1, 2, 3]",
+            "arr[] = [1, 2, 3]",
+            "var arr = (1, 2, 3)"
+        ],
+        "answer": 1,
+        "language": "JavaScript",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Qual é o tipo de dado que armazena números decimais em Java?",
+        "options": [
+            "int",
+            "float",
+            "double",
+            "long"
+        ],
+        "answer": 1,
+        "language": "Java",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "O que é o operador '&&' em JavaScript?",
+        "options": [
+            "Operador de atribuição",
+            "Operador lógico E",
+            "Operador de comparação",
+            "Operador de incremento"
+        ],
+        "answer": 1,
+        "language": "JavaScript",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Como você retorna um valor de uma função em C++?",
+        "options": [
+            "return valor;",
+            "return (valor);",
+            "valor = return;",
+            "valor;"
+        ],
+        "answer": 0,
+        "language": "C++",
+        "difficulty": "Fácil",
+        "points": 1
+    },
+    {
+        "question": "Qual é a principal diferença entre uma classe e uma estrutura em C++?",
+        "options": [
+            "Uma estrutura não pode conter métodos.",
+            "Uma classe é usada apenas para armazenar dados.",
+            "Uma estrutura pode herdar de outra estrutura.",
+            "Uma classe pode ter métodos privados, enquanto uma estrutura não pode."
+        ],
+        "answer": 3,
+        "language": "C++",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "O que significa o operador '==' em Python?",
+        "options": [
+            "Comparação de identidade",
+            "Atribuição de valor",
+            "Comparação de valores",
+            "Comparação de tipos"
+        ],
+        "answer": 2,
+        "language": "Python",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Qual das opções descreve a forma correta de criar uma lista em JavaScript?",
+        "options": [
+            "var lista = new Array()",
+            "var lista = ()",
+            "var lista = {}",
+            "var lista = [1, 2, 3]"
+        ],
+        "answer": 3,
+        "language": "JavaScript",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Como você pode acessar o primeiro elemento de um array em C#?",
+        "options": [
+            "array[0]",
+            "array.first()",
+            "array.get(1)",
+            "array[1]"
+        ],
+        "answer": 0,
+        "language": "C#",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Qual a forma correta de escrever uma variável global em JavaScript?",
+        "options": [
+            "var globalVariable",
+            "global globalVariable",
+            "let globalVariable",
+            "globalVariable"
+        ],
+        "answer": 0,
+        "language": "JavaScript",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Em C++, como você cria uma classe?",
+        "options": [
+            "class MyClass()",
+            "class MyClass;",
+            "MyClass class()",
+            "class MyClass { }"
+        ],
+        "answer": 3,
+        "language": "C++",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Em Python, como você pode transformar uma lista em uma string?",
+        "options": [
+            "join(list)",
+            "list.join()",
+            "str(list)",
+            "list.toString()"
+        ],
+        "answer": 0,
+        "language": "Python",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Qual a diferença entre 'let' e 'const' em JavaScript?",
+        "options": [
+            "Ambos declaram variáveis mutáveis.",
+            "'let' declara uma variável mutável, enquanto 'const' não.",
+            "'const' declara variáveis que podem ser reatribuídas.",
+            "'let' declara variáveis imutáveis."
+        ],
+        "answer": 1,
+        "language": "JavaScript",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Qual dos seguintes tipos é usado para armazenar valores booleanos em Java?",
+        "options": [
+            "boolean",
+            "bool",
+            "int",
+            "char"
+        ],
+        "answer": 0,
+        "language": "Java",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Em Python, qual é a função usada para verificar o tipo de uma variável?",
+        "options": [
+            "type()",
+            "var_type()",
+            "check()",
+            "get_type()"
+        ],
+        "answer": 0,
+        "language": "Python",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Qual comando você usa para importar uma classe de um pacote em Java?",
+        "options": [
+            "import pacote.classe",
+            "include pacote.classe",
+            "import classe de pacote",
+            "use pacote.classe"
+        ],
+        "answer": 0,
+        "language": "Java",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Em C++, qual é o operador para acessar membros de uma classe?",
+        "options": [
+            ".",
+            "->",
+            "::",
+            ":"
+        ],
+        "answer": 1,
+        "language": "C++",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Em JavaScript, qual comando é usado para adicionar um item ao final de um array?",
+        "options": [
+            "push()",
+            "add()",
+            "append()",
+            "insert()"
+        ],
+        "answer": 0,
+        "language": "JavaScript",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Qual é o operador utilizado para verificar se dois valores são iguais em C++?",
+        "options": [
+            "==",
+            "=",
+            "===",
+            "isEqual()"
+        ],
+        "answer": 0,
+        "language": "C++",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Como você cria uma função anônima em JavaScript?",
+        "options": [
+            "function() { }",
+            "const func = function() { }",
+            "() => { }",
+            "func() { }"
+        ],
+        "answer": 2,
+        "language": "JavaScript",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Qual tipo de dado representa números reais em Java?",
+        "options": [
+            "int",
+            "double",
+            "boolean",
+            "float"
+        ],
+        "answer": 1,
+        "language": "Java",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Qual comando em Python imprime algo na tela?",
+        "options": [
+            "printf()",
+            "print()",
+            "echo()",
+            "output()"
+        ],
+        "answer": 1,
+        "language": "Python",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "O que é uma exceção em programação?",
+        "options": [
+            "Erro que pode ser tratado",
+            "Comando especial",
+            "Estrutura de controle de fluxo",
+            "Função externa"
+        ],
+        "answer": 0,
+        "language": "Geral",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Qual é a principal característica do polimorfismo em Java?",
+        "options": [
+            "Uma classe pode ter múltiplos construtores.",
+            "Uma classe pode herdar de várias classes.",
+            "Métodos com o mesmo nome podem ter implementações diferentes.",
+            "Objetos podem ter múltiplas instâncias."
+        ],
+        "answer": 2,
+        "language": "Java",
+        "difficulty": "Médio",
+        "points": 5
+    },
+    {
+        "question": "Qual a principal diferença entre 'abstract class' e 'interface' em Java?",
+        "options": [
+            "Ambos são usados para criar objetos",
+            "'abstract class' pode ter implementações de métodos, enquanto 'interface' não",
+            "'abstract class' não pode ter variáveis, mas 'interface' pode",
+            "'interface' pode ter construtores, mas 'abstract class' não"
+        ],
+        "answer": 1,
+        "language": "Java",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Qual comando em Python é usado para importar todas as funções de um módulo?",
+        "options": [
+            "import module.*",
+            "from module import *",
+            "import module",
+            "module.import()"
+        ],
+        "answer": 1,
+        "language": "Python",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Em C++, qual é o método correto para desalocar memória alocada dinamicamente?",
+        "options": [
+            "free()",
+            "deallocate()",
+            "delete",
+            "del()"
+        ],
+        "answer": 2,
+        "language": "C++",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Qual é a principal vantagem do uso de ponteiros em C?",
+        "options": [
+            "Acesso direto à memória",
+            "Melhor desempenho em loops",
+            "Evita a alocação dinâmica",
+            "Ponteiros são sempre mais rápidos"
+        ],
+        "answer": 0,
+        "language": "C",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Qual é a principal diferença entre '== ' e '===' em JavaScript?",
+        "options": [
+            "'==' compara valor e tipo, '===' compara apenas valor",
+            "'==' compara valor, enquanto '===' compara valor e tipo",
+            "'===' é usado apenas para strings",
+            "'==' é usado apenas para números"
+        ],
+        "answer": 1,
+        "language": "JavaScript",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Em Java, o que significa 'final' quando usado em uma classe?",
+        "options": [
+            "A classe não pode ser instanciada",
+            "A classe não pode ser herdada",
+            "A classe pode ser instanciada apenas uma vez",
+            "A classe não pode ter métodos"
+        ],
+        "answer": 1,
+        "language": "Java",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Em Python, o que é o 'GIL' (Global Interpreter Lock)?",
+        "options": [
+            "Um recurso para controlar o acesso à memória",
+            "Um tipo de mutex que impede múltiplos threads",
+            "Uma função de coleta de lixo",
+            "Uma função de gerenciamento de threads"
+        ],
+        "answer": 1,
+        "language": "Python",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Em C++, qual é a diferença entre 'new' e 'malloc()'?",
+        "options": [
+            "'new' retorna um ponteiro, 'malloc()' retorna um objeto",
+            "'new' chama o construtor da classe, 'malloc()' não",
+            "'malloc()' aloca memória no heap, 'new' no stack",
+            "'malloc()' é usado para arrays, 'new' não"
+        ],
+        "answer": 1,
+        "language": "C++",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Em JavaScript, o que faz a função 'bind()'?",
+        "options": [
+            "Vincula uma função a um novo contexto de execução",
+            "Executa uma função após um determinado tempo",
+            "Cria uma nova função com parâmetros definidos",
+            "Remove uma função do contexto global"
+        ],
+        "answer": 0,
+        "language": "JavaScript",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Em C#, o que faz o modificador 'sealed'?",
+        "options": [
+            "Impede que a classe seja herdada",
+            "Impede que um método seja sobrecarregado",
+            "Impede que a classe seja instanciada",
+            "Impede que um método seja acessado"
+        ],
+        "answer": 0,
+        "language": "C#",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Qual é a diferença entre 'float' e 'double' em Java?",
+        "options": [
+            "'float' tem precisão maior que 'double'",
+            "'float' ocupa mais memória que 'double'",
+            "'double' tem precisão maior que 'float'",
+            "'double' é usado para números inteiros, 'float' para decimais"
+        ],
+        "answer": 2,
+        "language": "Java",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Em Python, qual função é usada para manipular exceções?",
+        "options": [
+            "handle()",
+            "try()",
+            "except()",
+            "catch()"
+        ],
+        "answer": 2,
+        "language": "Python",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Em C++, o que acontece quando você tenta acessar um vetor fora de seus limites?",
+        "options": [
+            "O programa gera um erro de compilação",
+            "O programa ignora a operação",
+            "O programa retorna um valor nulo",
+            "Comporta-se de forma indefinida, podendo gerar erro de memória"
+        ],
+        "answer": 3,
+        "language": "C++",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Em Java, qual a diferença entre 'String' e 'StringBuilder'?",
+        "options": [
+            "String é imutável, StringBuilder é mutável",
+            "StringBuilder é mais rápido, String é mais lento",
+            "String pode conter caracteres especiais, StringBuilder não",
+            "String é usado para números, StringBuilder para texto"
+        ],
+        "answer": 0,
+        "language": "Java",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Em C++, como você faz para sobrecarregar um operador?",
+        "options": [
+            "Usando a palavra-chave 'operator'",
+            "Usando a palavra-chave 'overload'",
+            "Declarando o operador dentro de uma classe",
+            "Não é possível sobrecarregar operadores em C++"
+        ],
+        "answer": 0,
+        "language": "C++",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Em JavaScript, qual é o propósito da função 'setTimeout()'?",
+        "options": [
+            "Definir um tempo limite para uma função ser executada",
+            "Executar uma função em intervalos regulares",
+            "Alterar o tempo de execução de uma função",
+            "Cancelar a execução de uma função"
+        ],
+        "answer": 0,
+        "language": "JavaScript",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Qual a principal diferença entre 'public' e 'private' em Java?",
+        "options": [
+            "Variáveis públicas podem ser acessadas apenas pela própria classe",
+            "Variáveis privadas podem ser acessadas de fora da classe",
+            "Métodos públicos podem ser acessados de qualquer lugar, métodos privados não",
+            "Métodos privados podem ser acessados de qualquer lugar"
+        ],
+        "answer": 2,
+        "language": "Java",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Qual é a função de uma 'hash table' em programação?",
+        "options": [
+            "Armazenar dados em formato de tabela",
+            "Prover buscas rápidas por chave",
+            "Organizar dados de forma hierárquica",
+            "Armazenar dados de forma ordenada"
+        ],
+        "answer": 1,
+        "language": "Geral",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "O que é uma exceção 'unchecked' em Java?",
+        "options": [
+            "Uma exceção que pode ser tratada",
+            "Uma exceção que não precisa ser declarada",
+            "Uma exceção que pode ser ignorada pelo compilador",
+            "Uma exceção que sempre será lançada"
+        ],
+        "answer": 1,
+        "language": "Java",
+        "difficulty": "Difícil",
+        "points": 10
+    },
+    {
+        "question": "Qual é a complexidade temporal de uma busca binária em uma lista ordenada?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n log n)",
+            "O(1)"
+        ],
+        "answer": 1,
+        "language": "Geral",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Em C++, o que faz o 'virtual destructor'?",
+        "options": [
+            "Destrói a memória alocada pelo objeto",
+            "Garante que o destruidor da classe base seja chamado quando um objeto derivado for destruído",
+            "Elimina todas as referências ao objeto",
+            "Não permite a exclusão do objeto"
+        ],
+        "answer": 1,
+        "language": "C++",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Em Java, o que é um 'Memory Leak' e como preveni-lo?",
+        "options": [
+            "Quando um valor é armazenado na memória e não é mais acessível, prevenido por garbage collector",
+            "Quando uma variável ocupa memória indefinidamente, prevenido por threads",
+            "Quando a memória RAM é ultrapassada, prevenido por o comando 'flush'",
+            "Quando a memória do processo é bloqueada, prevenido por 'wait()'"
+        ],
+        "answer": 0,
+        "language": "Java",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Em Python, o que significa o erro 'IndexError'?",
+        "options": [
+            "Tentar acessar um índice fora do alcance de uma lista ou sequência",
+            "Acessar um índice nulo em uma lista",
+            "Tentativa de acessar um valor de índice não definido",
+            "Acessar um índice sem permissão"
+        ],
+        "answer": 0,
+        "language": "Python",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Em C, o que faz a função 'longjmp()'?",
+        "options": [
+            "Ela retorna o controle para o ponto de execução anterior",
+            "Ela gera um erro de execução",
+            "Ela é usada para liberar memória",
+            "Ela reinicia a execução do programa a partir de um ponto específico"
+        ],
+        "answer": 3,
+        "language": "C",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Em JavaScript, qual é o comportamento de 'this' dentro de uma função chamada dentro de um evento de clique?",
+        "options": [
+            "Referência ao objeto que invocou o evento",
+            "Sempre é 'null'",
+            "Sempre é o objeto global",
+            "Sempre é o próprio evento"
+        ],
+        "answer": 0,
+        "language": "JavaScript",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "O que é o 'two-phase commit' em bancos de dados distribuídos?",
+        "options": [
+            "Um protocolo para garantir a integridade de transações em sistemas distribuídos",
+            "Um método para distribuir dados em várias bases de dados",
+            "Um algoritmo para recuperação de falhas",
+            "Um mecanismo de criptografia de dados"
+        ],
+        "answer": 0,
+        "language": "Geral",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Em C++, o que significa 'RAII'?",
+        "options": [
+            "A técnica de gerenciar a memória automaticamente usando objetos",
+            "A técnica de gerenciamento de erros em tempo de execução",
+            "A técnica de redefinir os ponteiros de memória",
+            "A técnica de usar variáveis em tempo de execução"
+        ],
+        "answer": 0,
+        "language": "C++",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Em Java, qual é o papel da classe 'ClassLoader'?",
+        "options": [
+            "Carregar classes dinamicamente em tempo de execução",
+            "Gerenciar a alocação de memória para objetos",
+            "Compilar classes em bytecode",
+            "Definir o comportamento das classes"
+        ],
+        "answer": 0,
+        "language": "Java",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Em Python, o que é o conceito de 'duck typing'?",
+        "options": [
+            "É quando o tipo de uma variável é determinado pelo valor que ela pode assumir, não pela sua classe",
+            "É um tipo de programação orientada a objetos",
+            "É uma forma de definir tipos para variáveis em tempo de compilação",
+            "É um conceito que impede a criação de novos tipos"
+        ],
+        "answer": 0,
+        "language": "Python",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Qual é a principal diferença entre uma busca binária e uma busca linear?",
+        "options": [
+            "A busca binária é mais eficiente, com complexidade O(log n), enquanto a linear é O(n)",
+            "A busca binária é mais lenta que a linear",
+            "A busca binária pode ser usada apenas para listas não ordenadas",
+            "A busca linear exige mais memória que a binária"
+        ],
+        "answer": 0,
+        "language": "Geral",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Em C, como você lida com ponteiros nulos?",
+        "options": [
+            "Verificando se o ponteiro é diferente de 'NULL'",
+            "Ignorando o ponteiro se for nulo",
+            "Usando 'malloc()' para alocar memória para o ponteiro",
+            "Apenas criando uma nova variável"
+        ],
+        "answer": 0,
+        "language": "C",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Em Java, o que é a 'reflection API'?",
+        "options": [
+            "Uma forma de examinar e modificar o comportamento de classes em tempo de execução",
+            "Uma forma de criar instâncias de objetos de forma dinâmica",
+            "Uma forma de criar bibliotecas externas",
+            "Uma forma de controlar a execução do código em tempo de compilação"
+        ],
+        "answer": 0,
+        "language": "Java",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Em Python, o que é um gerador (generator)?",
+        "options": [
+            "Uma função que retorna um iterador, permitindo iteração preguiçosa",
+            "Uma função que gera números aleatórios",
+            "Uma função que cria múltiplos threads de execução",
+            "Uma função que cria variáveis locais"
+        ],
+        "answer": 0,
+        "language": "Python",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Em C++, o que faz a palavra-chave 'explicit'?",
+        "options": [
+            "Evita a conversão implícita de tipos",
+            "Permite que uma classe seja herdada",
+            "Evita a criação de construtores",
+            "Define um tipo de conversão"
+        ],
+        "answer": 0,
+        "language": "C++",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Em JavaScript, o que faz o 'Event Delegation'?",
+        "options": [
+            "A técnica de anexar eventos a elementos específicos do DOM",
+            "A técnica de usar um único evento para gerenciar eventos de vários elementos",
+            "A técnica de remover eventos de elementos após sua execução",
+            "A técnica de usar eventos síncronos"
+        ],
+        "answer": 1,
+        "language": "JavaScript",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Qual a principal vantagem do uso de 'hashing' em comparação com outros métodos de pesquisa?",
+        "options": [
+            "Acesso constante em tempo O(1)",
+            "Acesso mais rápido em arrays ordenados",
+            "Menos uso de memória",
+            "Acesso mais rápido a listas encadeadas"
+        ],
+        "answer": 0,
+        "language": "Geral",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Em C++, o que significa 'smart pointers'?",
+        "options": [
+            "Ponteiros que gerenciam automaticamente a alocação e desalocação de memória",
+            "Ponteiros que podem acessar diretamente a memória do sistema",
+            "Ponteiros que não podem ser modificados",
+            "Ponteiros que são usados para otimização de performance"
+        ],
+        "answer": 0,
+        "language": "C++",
+        "difficulty": "Extremo",
+        "points": 20
+    },
+    {
+        "question": "Qual é o papel do 'garbage collector' em Java?",
+        "options": [
+            "Gerenciar a memória de objetos que não são mais referenciados",
+            "Liberar a memória usada por variáveis locais",
+            "Controlar o uso de memória durante a execução de funções",
+            "Aumentar o desempenho das operações de entrada e saída"
+        ],
+        "answer": 0,
+        "language": "Java",
+        "difficulty": "Extremo",
+        "points": 20
+    }
+]
