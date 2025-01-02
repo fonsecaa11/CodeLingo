@@ -19,9 +19,25 @@ class DashboardActivity : AppCompatActivity() {
         setContentView(R.layout.activity_dashboard)
 
 
+        // Botão de sair
         val exitButton = findViewById<Button>(R.id.exitButton)
         exitButton.setOnClickListener {
             finishAffinity()
+        }
+
+        // Botão de definições
+        val settingsButton = findViewById<Button>(R.id.settingsButton)
+        settingsButton.setOnClickListener {
+            openDefinicoesFragment()
+        }
+    }
+
+    // Método para abrir o fragmento de definições
+    private fun openDefinicoesFragment() {
+        supportFragmentManager.commit {
+            setReorderingAllowed(true)
+            replace(R.id.fragment_container, Definicoes()) // Substituir o FrameLayout pelo fragmento
+            addToBackStack(null) // Adiciona à pilha de fragmentos para permitir o botão de voltar
         }
     }
 }
