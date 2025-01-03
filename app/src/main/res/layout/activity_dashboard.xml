@@ -7,7 +7,7 @@
     android:background="@color/background_color"
     tools:context=".DashboardActivity">
 
-    <!-- Ranking Mundial -->
+
     <ImageView
         android:id="@+id/rankingIcon"
         android:layout_width="40dp"
@@ -19,7 +19,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp" />
 
-    <!-- Botões agrupados no centro -->
+
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
