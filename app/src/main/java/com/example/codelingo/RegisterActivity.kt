@@ -19,17 +19,14 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
-        // Inicializar Firebase Auth
         auth = FirebaseAuth.getInstance()
 
-        // Referências para os campos e botões
         val emailField = findViewById<EditText>(R.id.registerEmail)
         val passwordField = findViewById<EditText>(R.id.registerPassword)
         val confirmPasswordField = findViewById<EditText>(R.id.registerConfirmPassword)
         val registerButton = findViewById<Button>(R.id.Register2)
         val loginButton = findViewById<Button>(R.id.Loginbutton)
 
-        // Clique no botão de Registrar
         registerButton.setOnClickListener {
             val email = emailField.text.toString().trim()
             val password = passwordField.text.toString()
@@ -50,12 +47,11 @@ class RegisterActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            // Criar conta com Firebase
             auth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener { task ->
                     if (task.isSuccessful) {
                         Toast.makeText(this, "Conta criada com sucesso!", Toast.LENGTH_SHORT).show()
-                        // Redirecionar para Login ou outra página
+
                         val intent = Intent(this, MainActivity::class.java)
                         startActivity(intent)
                         finish()
@@ -65,9 +61,7 @@ class RegisterActivity : AppCompatActivity() {
                 }
         }
 
-        // Configura o clique no botão
         loginButton.setOnClickListener {
-            // Cria a Intent para abrir ActivityRegister
             val MudarActivity = Intent(this, MainActivity::class.java)
             startActivity(MudarActivity) // Inicia a ActivityRegister
         }

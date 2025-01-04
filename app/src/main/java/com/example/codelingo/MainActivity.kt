@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
-        // Referências para os campos e botões
         val emailField = findViewById<EditText>(R.id.editTextTextEmailAddress)
         val passwordField = findViewById<EditText>(R.id.editTextNumberPassword)
         val loginButton = findViewById<Button>(R.id.Loginbutton)
@@ -39,12 +38,11 @@ class MainActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            // Autenticação no Firebase
             auth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener { task ->
                     if (task.isSuccessful) {
                         Toast.makeText(this, "Login realizado com sucesso!", Toast.LENGTH_SHORT).show()
-                        // Redirecionar para a próxima atividade
+
                         val intent = Intent(this, DashboardActivity::class.java)
                         startActivity(intent)
                         finish()
@@ -55,9 +53,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         registerButton.setOnClickListener {
-            // Cria a Intent para abrir ActivityRegister
             val MudarActivity = Intent(this, RegisterActivity::class.java)
-            startActivity(MudarActivity) // Inicia a ActivityRegister
+            startActivity(MudarActivity)
         }
 
         uploadQuestionsToFirestore(this)

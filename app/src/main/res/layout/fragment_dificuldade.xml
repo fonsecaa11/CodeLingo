@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/difficultyTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escolha a dificuldade"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/initialButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inicial"
+            android:backgroundTint="@color/primary_color"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/intermediateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intermediária"
+            android:backgroundTint="@color/secondary_color"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/advancedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avançada"
+            android:backgroundTint="@color/error_color"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</FrameLayout>

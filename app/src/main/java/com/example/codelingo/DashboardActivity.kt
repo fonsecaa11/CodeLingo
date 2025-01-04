@@ -18,26 +18,29 @@ class DashboardActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_dashboard)
 
-
-        // Botão de sair
         val exitButton = findViewById<Button>(R.id.exitButton)
         exitButton.setOnClickListener {
             finishAffinity()
         }
 
-        // Botão de definições
         val settingsButton = findViewById<Button>(R.id.settingsButton)
         settingsButton.setOnClickListener {
             openDefinicoesFragment()
         }
+
+        val startButton = findViewById<Button>(R.id.startButton)
+        startButton.setOnClickListener {
+            val levelDialogFragment = LevelDialogFragment()
+            levelDialogFragment.show(supportFragmentManager, "LevelDialog")
+        }
+
     }
 
-    // Método para abrir o fragmento de definições
     private fun openDefinicoesFragment() {
         supportFragmentManager.commit {
             setReorderingAllowed(true)
-            replace(R.id.fragment_container, Definicoes()) // Substituir o FrameLayout pelo fragmento
-            addToBackStack(null) // Adiciona à pilha de fragmentos para permitir o botão de voltar
+            replace(R.id.fragment_container, Definicoes())
+            addToBackStack(null) //
         }
     }
 }

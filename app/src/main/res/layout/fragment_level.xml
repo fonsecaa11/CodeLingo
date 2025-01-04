@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".LevelFragment">
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="16dp">
 
-    <Button
-        android:id="@+id/ButtonJava"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Clique Aqui" />
+        android:orientation="vertical"
+        android:gravity="center">
 
+        <Button
+            android:id="@+id/ButtonJava"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java" />
+
+        <Button
+            android:id="@+id/ButtonPhp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHP"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
 </FrameLayout>
