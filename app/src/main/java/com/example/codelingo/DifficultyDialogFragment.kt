@@ -1,5 +1,6 @@
 package com.example.codelingo
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -21,6 +22,7 @@ class DifficultyDialogFragment : DialogFragment() {
         }
     }
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -28,23 +30,23 @@ class DifficultyDialogFragment : DialogFragment() {
         val view = inflater.inflate(R.layout.fragment_dificuldade, container, false)
 
         val title = view.findViewById<TextView>(R.id.difficultyTitle)
-        val initialButton = view.findViewById<Button>(R.id.initialButton)
-        val intermediateButton = view.findViewById<Button>(R.id.intermediateButton)
-        val advancedButton = view.findViewById<Button>(R.id.advancedButton)
+        val initialButton = view.findViewById<Button>(R.id.FácilButton)
+        val intermediateButton = view.findViewById<Button>(R.id.MédioButton)
+        val advancedButton = view.findViewById<Button>(R.id.DifícilButton)
 
         // Ajusta o título com base na linguagem selecionada
         title.text = "Escolha a dificuldade para $selectedLanguage"
 
         initialButton.setOnClickListener {
-            handleDifficultySelection("Inicial")
+            handleDifficultySelection("Fácil")
         }
 
         intermediateButton.setOnClickListener {
-            handleDifficultySelection("Intermediária")
+            handleDifficultySelection("Médio")
         }
 
         advancedButton.setOnClickListener {
-            handleDifficultySelection("Avançada")
+            handleDifficultySelection("Difícil")
         }
 
         return view

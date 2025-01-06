@@ -35,21 +35,28 @@ fun loadQuestions(context: Context): List<Question> {
 fun uploadQuestionsToFirestore(context: Context) {
     val db = FirebaseFirestore.getInstance()
 
-    // Verificar se já existem perguntas na coleção "questions"
     db.collection("questions").get()
         .addOnSuccessListener { querySnapshot ->
             if (querySnapshot.isEmpty) {
-                // Se a coleção estiver vazia, inserir as perguntas
                 val questions = loadQuestions(context)
-                if (questions != null) {
+                if (questions.isNotEmpty()) {
                     for (question in questions) {
+                        // Calcule o nível com base na dificuldade ou insira manualmente
+                        val level = when (question.difficulty.lowercase()) {
+                            "easy" -> 1
+                            "medium" -> 2
+                            "hard" -> 3
+                            else -> 1 // Nível padrão
+                        }
+
                         val questionData = hashMapOf(
                             "question" to question.question,
                             "options" to question.options,
                             "answer" to question.answer,
                             "language" to question.language,
                             "difficulty" to question.difficulty,
-                            "points" to question.points
+                            "points" to question.points,
+                            "level" to level // Adicionando o nível
                         )
 
                         db.collection("questions")

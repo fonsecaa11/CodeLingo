@@ -21,29 +21,29 @@
             android:layout_marginBottom="16dp" />
 
         <Button
-            android:id="@+id/initialButton"
+            android:id="@+id/FácilButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Inicial"
+            android:text="Fácil"
             android:backgroundTint="@color/primary_color"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/intermediateButton"
+            android:id="@+id/MédioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Intermediária"
+            android:text="Médio"
             android:backgroundTint="@color/secondary_color"
             android:textColor="@android:color/white"
             android:layout_marginTop="16dp"
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/advancedButton"
+            android:id="@+id/DifícilButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Avançada"
+            android:text="Difícil"
             android:backgroundTint="@color/error_color"
             android:textColor="@android:color/white"
             android:layout_marginTop="16dp"
