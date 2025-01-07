@@ -30,23 +30,28 @@ class DifficultyDialogFragment : DialogFragment() {
         val view = inflater.inflate(R.layout.fragment_dificuldade, container, false)
 
         val title = view.findViewById<TextView>(R.id.difficultyTitle)
-        val initialButton = view.findViewById<Button>(R.id.FácilButton)
-        val intermediateButton = view.findViewById<Button>(R.id.MédioButton)
-        val advancedButton = view.findViewById<Button>(R.id.DifícilButton)
+        val FácilButton = view.findViewById<Button>(R.id.FácilButton)
+        val MédioButton = view.findViewById<Button>(R.id.MédioButton)
+        val DifícilButton = view.findViewById<Button>(R.id.DifícilButton)
+        val ExtremoButton = view.findViewById<Button>(R.id.ExtremoButton)
 
         // Ajusta o título com base na linguagem selecionada
         title.text = "Escolha a dificuldade para $selectedLanguage"
 
-        initialButton.setOnClickListener {
+        FácilButton.setOnClickListener {
             handleDifficultySelection("Fácil")
         }
 
-        intermediateButton.setOnClickListener {
+        MédioButton.setOnClickListener {
             handleDifficultySelection("Médio")
         }
 
-        advancedButton.setOnClickListener {
+        DifícilButton.setOnClickListener {
             handleDifficultySelection("Difícil")
+        }
+
+        ExtremoButton.setOnClickListener {
+            handleDifficultySelection("Extremo")
         }
 
         return view

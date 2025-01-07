@@ -48,6 +48,15 @@
             android:textColor="@android:color/white"
             android:layout_marginTop="16dp"
             android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/ExtremoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extremo"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
     </LinearLayout>
 
 </FrameLayout>
